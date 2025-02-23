@@ -1,3 +1,5 @@
+'use client'
+
 import { useState } from 'react';
 
 export default function Hook() {
@@ -12,6 +14,14 @@ export default function Hook() {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen">
+      <header>
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/page2">Hook</a></li>
+          </ul>
+        </nav>
+      </header>
       <div className={`w-64 h-64 ${color} mb-8`}></div>
       <div className="flex space-x-4">
         {colors.map((c, index) => (
