@@ -17,7 +17,7 @@ export default function Hook() {
       <header>
         <nav>
           <ul>
-            <li><a href="/">Home</a></li>
+            <li><Link href="/">Home</a></Link>
             <li><a href="/page2">Hook</a></li>
           </ul>
         </nav>
